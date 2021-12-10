@@ -51,6 +51,10 @@
 
 ## Cấu hình Git
 
+| Lệnh                                       | Mô tả                                                        |
+|--------------------------------------------|--------------------------------------------------------------|
+| `git config --system core.editor <editor>` | Đặt text editor mong muốn (mặc định là Vim) cho tất cả user. |
+
 ## Git Log
 
 ## Git Diff
