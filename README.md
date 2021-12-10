@@ -54,6 +54,8 @@
 | Lệnh                                       | Mô tả                                                        |
 |--------------------------------------------|--------------------------------------------------------------|
 | `git config --system core.editor <editor>` | Đặt text editor mong muốn (mặc định là Vim) cho tất cả user. |
+| `git config --global user.name <name>`     | Đặt tên tác giả cho tất cả commit của user hiện tại.         |
+| `git config --global user.email <email>`   | Đặt email tác giả cho tất cả commit của user hiện tại.       |
 
 ## Git Log
 
