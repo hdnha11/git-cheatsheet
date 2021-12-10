@@ -59,12 +59,44 @@
 
 ## Git Log
 
+| Lệnh                           | Mô tả                                      |
+|--------------------------------|--------------------------------------------|
+| `git log --stat`               | Hiện thị thêm thông tin file được sửa đổi. |
+| `git log --author="<pattern>"` | Lọc commit theo tác giả.                   |
+| `git log --grep="<pattern>"`   | Lọc commit theo commit message.            |
+| `git log <since>..<until>`     | Hiện thị commit trong khoảng.              |
+| `git log -- <file>`            | Hiện thị commit của một file cụ thể.       |
+| `git log --graph`              | Hiện thị lịch sử dưới dạng đồ thị.         |
+
 ## Git Diff
+
+| Lệnh                | Mô tả                                           |
+|---------------------|-------------------------------------------------|
+| `git diff HEAD`     | So sánh working directory với commit cuối cùng. |
+| `git diff --cached` | So sánh index với commit cuối cùng.             |
 
 ## Git Reset
 
+| Lệnh               | Mô tả                                                                              |
+|--------------------|------------------------------------------------------------------------------------|
+| `git reset`        | Reset khu vực index (staging area) giống với commit gần nhất.                      |
+| `git reset --hard` | Reset khu vực index (staging area) và working directory giống với commit gần nhất. |
+
 ## Git Rebase
+
+| Lệnh                   | Mô tả                                                                  |
+|------------------------|------------------------------------------------------------------------|
+| `git rebase -i <base>` | Rebase với chế độ "tương tác", Git sẽ mở editor cho chúng ta thao tác. |
 
 ## Git Pull
 
+| Lệnh                         | Mô tả                                 |
+|------------------------------|---------------------------------------|
+| `git pull --rebase <remote>` | Pull với chế độ rebase thay vì merge. |
+
 ## Git Push
+
+| Lệnh                        | Mô tả                                                 |
+|-----------------------------|-------------------------------------------------------|
+| `git push <remote> --force` | Force push, sẽ ghi đè nhánh remote. Cẩn thận khi làm. |
+| `git push <remote> --tags`  | Push local tag lên remote.                            |
